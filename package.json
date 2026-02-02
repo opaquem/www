@@ -6,11 +6,16 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check & astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "format": "biome format --write",
+    "lint": "biome lint --write"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "astro": "^5.17.1",
     "astro-capo": "^0.0.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.13"
   }
 }
